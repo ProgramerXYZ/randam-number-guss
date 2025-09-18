@@ -42,4 +42,26 @@ int main()
     }
     // Generate random number
     int random_number = rand() % (max_range + 1);
+
+    // Game loop
+    int guess;
+    while (true)
+    {
+        cout << "Enter your guess (0-" << max_range << "): ";
+        cin >> guess;
+
+        if (guess == random_number)
+        {
+            cout << "Congratulations! You guessed correctly!" << endl;
+            break;
+        }
+        else if (guess < random_number)
+        {
+            cout << "Too low! Try again." << endl;
+        }
+        else
+        {
+            cout << "Too high! Try again." << endl;
+        }
+    }
 }

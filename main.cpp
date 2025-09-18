@@ -8,7 +8,7 @@ int main()
 
     srand(time(0)); // seed with current time
 
-    int input;
+   
 
     cout << "welcome to randoum number gusser" << endl;
     cout << "plz select your difficulty 1 for easy \n2 for medium \n3 for hard \n5 for very hard \n 100 for almost impossible";
@@ -40,3 +40,4 @@ int main()
 
         return 0;
     }
+}

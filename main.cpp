@@ -40,4 +40,6 @@ int main()
 
         return 0;
     }
+    // Generate random number
+    int random_number = rand() % (max_range + 1);
 }
